@@ -5,7 +5,7 @@ import sys
 import time
 
 # ================== CẤU HÌNH ==================
-BOT_TOKEN = "THAY_TOKEN_BOT_O_DAY"
+BOT_TOKEN = "7718251438:AAHtLy-axP3jLq1ce2JaTaCGhjgbRcNZV1A"
 
 ADMIN_IDS = {
     123456789  # THAY ID TELEGRAM CỦA BẠN
