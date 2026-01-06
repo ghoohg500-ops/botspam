@@ -23,27 +23,6 @@ import os
 import hashlib
 import sys
 
-pyver = ".".join(sys.version.split(" ")[0].split(".")[:-1])
-__pypath__ = os.getcwd()
-chars = " ➤ [«/»] >>>"
-
-os.system('cls' if os.name == 'nt' else 'clear')
-ban = f"""
-[90m      ___           ___           ___     [0m
-[90m     /  /\         /  /\         /  /\    [0m
-[90m    /  /:/_       /  /::\       /  /:/_   [0m
-[90m   /  /:/ /\     /  /:/\:\     /  /:/ /\  [0m
-[90m  /  /:/_/::\   /  /:/  \:|   /  /:/_/::\ [0m
-
-[93m              CRE NAM[0m
-"""
-
-for i in ban:
-    sys.stdout.write(i)
-    sys.stdout.flush()
-    time.sleep(0.005)
-    
- 
 MAX_THREADS = 18
 semaphore = BoundedSemaphore(MAX_THREADS)
 # Danh sÃ¡ch cÃ¡c há», tÃªn Ä‘á»‡m vÃ&nbsp; tÃªn phá»• biáº¿n
